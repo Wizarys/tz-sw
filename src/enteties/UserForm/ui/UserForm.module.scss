@@ -1,0 +1,40 @@
+@use "@/shared/styles/common.module.scss" as common;
+
+.title {
+    font-size: 36px;
+    text-align: center; 
+    font-weight: bold;  
+}
+
+.fieldTitle {
+    flex: 1 1 100%;
+    font-size: 28px;
+    font-weight: bold; 
+}
+
+.inputTopLabel {
+    font-size: 22px;
+}
+
+.asterisk {
+    color: red;
+}
+
+.disabled {
+    color: #00000099;
+    opacity: .6;
+    font-style: normal;
+}
+
+.userForm {
+    padding: 33px 45px;
+    background: white;
+    border-radius: 30px;
+    input {
+        font-size: 16px;        
+    }
+    // .MuiSelect-select {
+    //     border-radius: 6px;
+    //     padding: 19px 28px;
+    // }
+}

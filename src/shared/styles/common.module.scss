@@ -1,0 +1,23 @@
+.primaryButton {
+    font-weight: bold;
+    color: #fff;
+    padding: 19px 50px;
+    transition: all 0.2s ease;
+    text-transform: none;
+    &:hover {
+        background-color: #313131;
+        transform: translateY(2px);
+    }
+}
+
+.cancelButton {
+    font-weight: bold;
+    padding: 19px 50px;
+    transition: all 0.2s ease;
+    text-transform: none;
+    border: 1px solid transparent;
+    &:hover {
+        border: 1px solid #000;
+        transform: translateY(2px);
+    }
+}
